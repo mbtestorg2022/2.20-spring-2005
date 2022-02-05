@@ -23,61 +23,1269 @@ SAH - Sabersky, Acosta, Haouptmann, and Gates, _Fluid Flow_, 4th Ed.
 
 \* - Mark for advanced subjects
 
-| CHAPTER # | TOPICS | READINGS |
-| --- | --- | --- |
-|  {{< br >}}{{< br >}} 0 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 1.0, 3.0, 3.1 {{< br >}}{{< br >}} SAH 1.1, 1.2, App.3 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Basic Equations {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 3.3, 3.2, 3.4, 3.5 {{< br >}}{{< br >}} SAH 2.2, 4.2, 2.4 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 1.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Description of Flow {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Mass and Momentum Conservation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 3.6-3.9 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 1.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Transport Theorem {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Continuity Equation {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Euler's Equation {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Newtonian Fluids {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Navier-Stokes Equation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} SAH 2.6, 2.8 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 1.8 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Boundary Conditions {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 1.9 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Body Forces, Gravity {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Similitude {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 2.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Dimensional Analysis {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.0-2.2 {{< br >}}{{< br >}} SAH 5.1 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 2.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Similarity Parameters {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 1.0 {{< br >}}{{< br >}} SAH 5.2, 5.3 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Ideal (Inviscid) Fluid Flow {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 4.0-4.2 {{< br >}}{{< br >}} SAH 2.2, 2.4, 6.1-6.4 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Vorticity, Kelvin's Theorem {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Potential Flow {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Bernoulli's Equation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 4.3, 4.4, 4.6 {{< br >}}{{< br >}} SAH 3.1, 3.6, 3.7 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3.5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Boundary Conditions {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Stream Function {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Simple Potential Flows {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 4.5, 4.18, 4.10 {{< br >}}{{< br >}} SAH 6.5, 6.6, 6.8, 6.9 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3.8 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Method of Images {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.9 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} D'Alembert's Paradox {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 3.10 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lift Due to Circulation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 4.13-4.16 {{< br >}}{{< br >}} SAH 6.7, 6.11 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3.11 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Unsteady Motion, Added Mass {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} \*3.12 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Slender-Body Approx. {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Real (Viscous) Fluid Flow {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.4, 2.12, 2.5 {{< br >}}{{< br >}} SAH 5.7, 5.8, 7.1, 7.2 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 4.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Flow Past a Sphere {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 4.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Drag on a Flat Plate {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 4.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Plane Couette Flow {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 3.10-3.13 {{< br >}}{{< br >}} SAH 7.3, 7.4 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 4.4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Poiseuille Flow {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} \*4.5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Unsteady Flow over a Flat Plate {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 4.6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Laminar Boundary Layer {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 3.14-3.16 {{< br >}}{{< br >}} SAH 8.1-8.4, 8.6, 8.7 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 4.7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Turbulent Flow, Reynolds' Stress {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 3.17-3.21 {{< br >}}{{< br >}} SAH 8.9 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 4.8 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Turbulent Boundary Layer {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Model Tests {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.5, 2.6 {{< br >}}{{< br >}} SAH 5.7, 5.8, 8.10 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 5.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Steady Flow {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 5.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Unsteady Forces {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.11, 2.9 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} \*5.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Drag on a Ship Hull {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Surface Waves {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.3, 4.9, 6.0-6.2 {{< br >}}{{< br >}} SAH 11.1, 11.13 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 6.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Small Amplitude Waves {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Plane Progressive Waves {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Wave Dispersion {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 6.3, 6.5, 6.6-6.8 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} \*6.5 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Mass Transport {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.6 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Superposition {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Group Velocity, Wave Energy {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.8 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} 2D Ship Waves, Wave Resistance {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 6.9, 6.10 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} \*6.9 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} 3D Ship Wave Pattern {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 6.10 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Wave Forces on a Body {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.13, 2.14 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 7 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lifting Surfaces {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.7, 5.0, 5.1 {{< br >}}{{< br >}} SAH 6.11, 6.12 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 7.1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lift and Drag of a Foil {{< br >}}{{< br >}}  |  |
-|  {{< br >}}{{< br >}} 7.2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} 2D Lifting Surfaces, Linearized Theory, Analysis and Design Problems {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 5.2-5.5 {{< br >}}{{< br >}} SAH 6.13 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} \*7.3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} 3D Lifting Surfaces {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 5.8-5.10 {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} \*7.4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Propellers {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} JNN 2.8, 2.10 {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+CHAPTER #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+0
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 1.0, 3.0, 3.1
+
+SAH 1.1, 1.2, App.3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Basic Equations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 3.3, 3.2, 3.4, 3.5
+
+SAH 2.2, 4.2, 2.4
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Description of Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mass and Momentum Conservation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 3.6-3.9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Transport Theorem
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Continuity Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Euler's Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Newtonian Fluids
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Navier-Stokes Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+SAH 2.6, 2.8
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.8
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Boundary Conditions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1.9
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Body Forces, Gravity
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Similitude
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+2.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Dimensional Analysis
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.0-2.2
+
+SAH 5.1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+2.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Similarity Parameters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 1.0
+
+SAH 5.2, 5.3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Ideal (Inviscid) Fluid Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 4.0-4.2
+
+SAH 2.2, 2.4, 6.1-6.4
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Vorticity, Kelvin's Theorem
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Potential Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Bernoulli's Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 4.3, 4.4, 4.6
+
+SAH 3.1, 3.6, 3.7
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Boundary Conditions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Stream Function
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Simple Potential Flows
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 4.5, 4.18, 4.10
+
+SAH 6.5, 6.6, 6.8, 6.9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.8
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Method of Images
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.9
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+D'Alembert's Paradox
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.10
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lift Due to Circulation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 4.13-4.16
+
+SAH 6.7, 6.11
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3.11
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Unsteady Motion, Added Mass
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*3.12
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Slender-Body Approx.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Real (Viscous) Fluid Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.4, 2.12, 2.5
+
+SAH 5.7, 5.8, 7.1, 7.2
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Flow Past a Sphere
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Drag on a Flat Plate
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Plane Couette Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 3.10-3.13
+
+SAH 7.3, 7.4
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Poiseuille Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*4.5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Unsteady Flow over a Flat Plate
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Laminar Boundary Layer
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 3.14-3.16
+
+SAH 8.1-8.4, 8.6, 8.7
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Turbulent Flow, Reynolds' Stress
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 3.17-3.21
+
+SAH 8.9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4.8
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Turbulent Boundary Layer
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Model Tests
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.5, 2.6
+
+SAH 5.7, 5.8, 8.10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+5.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Steady Flow
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+5.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Unsteady Forces
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.11, 2.9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*5.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Drag on a Ship Hull
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Surface Waves
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.3, 4.9, 6.0-6.2
+
+SAH 11.1, 11.13
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Small Amplitude Waves
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Plane Progressive Waves
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Wave Dispersion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 6.3, 6.5, 6.6-6.8
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*6.5
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mass Transport
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.6
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Superposition
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Group Velocity, Wave Energy
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.8
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2D Ship Waves, Wave Resistance
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 6.9, 6.10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*6.9
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+3D Ship Wave Pattern
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6.10
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Wave Forces on a Body
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.13, 2.14
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+7
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lifting Surfaces
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.7, 5.0, 5.1
+
+SAH 6.11, 6.12
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+7.1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lift and Drag of a Foil
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+7.2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2D Lifting Surfaces, Linearized Theory, Analysis and Design Problems
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 5.2-5.5
+
+SAH 6.13
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*7.3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+3D Lifting Surfaces
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 5.8-5.10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+\*7.4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Propellers
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+JNN 2.8, 2.10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

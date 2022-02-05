@@ -29,7 +29,36 @@ Lab reports are to be done on an individual basis, though lab work will be done 
 Lab Assignments
 ---------------
 
-| LAB # | ASSIGNMENTS |
-| --- | --- |
-| A | High-Speed Free-Surface Impact Hydrodynamics ([PDF]({{< baseurl >}}/resources/impact_assign)) |
-| B | Surface Wave Kinematics and Added Resistance of Ship in Waves ([PDF]({{< baseurl >}}/resources/wave_assign))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LAB #
+{{< thclose >}}
+{{< thopen >}}
+ASSIGNMENTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+A
+{{< tdclose >}}
+{{< tdopen >}}
+High-Speed Free-Surface Impact Hydrodynamics ([PDF]({{< baseurl >}}/resources/impact_assign))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+B
+{{< tdclose >}}
+{{< tdopen >}}
+Surface Wave Kinematics and Added Resistance of Ship in Waves ([PDF]({{< baseurl >}}/resources/wave_assign))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

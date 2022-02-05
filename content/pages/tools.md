@@ -14,8 +14,57 @@ These three software packages are:
 
 To run the tools in this section, first download the appropriate Java files and accept the applet. Tutorial files are provided to assist in using the tools. In addition, you can download the executable files if you would like to experiment further with the tools.
 
-| TOOLS | EXECutable FILES | TUTORIALS |
-| --- | --- | --- |
-| [P-Flow](/ans7870/2/2.20/f05/tools/PFlowV3.5_v2/PFlowV35.html) | ([ZIP]({{< baseurl >}}/resources/pflowv35)) (The ZIP file contains: 2 .jar files, and 1 .html file.) | ([PDF]({{< baseurl >}}/resources/p_flowtutorial)) |
-| [AMass](/ans7870/2/2.20/f05/tools/AMass3DV1.4/AMass3D.html) | ([ZIP]({{< baseurl >}}/resources/amass3dv14)) (The ZIP file contains: 1 .jar file, and 1 .html file.) | ([PDF]({{< baseurl >}}/resources/amasstutorial)) |
-| [Wave Partial Reflection](/ans7870/2/2.20/f05/tools/PartialReflection/PartialReflectionb.html) | ([ZIP]({{< baseurl >}}/resources/partialreflection)) (The ZIP file contains: 6 .class files, 2 .html files, and 3 .jpg files.) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+TOOLS
+{{< thclose >}}
+{{< thopen >}}
+EXECutable FILES
+{{< thclose >}}
+{{< thopen >}}
+TUTORIALS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[P-Flow](/ans7870/2/2.20/f05/tools/PFlowV3.5_v2/PFlowV35.html)
+{{< tdclose >}}
+{{< tdopen >}}
+([ZIP]({{< baseurl >}}/resources/pflowv35)) (The ZIP file contains: 2 .jar files, and 1 .html file.)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/p_flowtutorial))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[AMass](/ans7870/2/2.20/f05/tools/AMass3DV1.4/AMass3D.html)
+{{< tdclose >}}
+{{< tdopen >}}
+([ZIP]({{< baseurl >}}/resources/amass3dv14)) (The ZIP file contains: 1 .jar file, and 1 .html file.)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/amasstutorial))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+[Wave Partial Reflection](/ans7870/2/2.20/f05/tools/PartialReflection/PartialReflectionb.html)
+{{< tdclose >}}
+{{< tdopen >}}
+([ZIP]({{< baseurl >}}/resources/partialreflection)) (The ZIP file contains: 6 .class files, 2 .html files, and 3 .jpg files.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
