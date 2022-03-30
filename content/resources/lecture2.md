@@ -6,6 +6,7 @@ description: This resource includes the following topics - Description of a Flow
   Lagrangian Time Derivative and Eulerian Time Derivative.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-20-marine-hydrodynamics-13-021-spring-2005/ec6b004ab50a456b9eadacb32ecfa184_lecture2.pdf
 file_type: application/pdf
+parent_uid: 9d206842-775b-9736-52ec-e3f48328722a
 resourcetype: Document
 title: lecture2.pdf
 uid: ec6b004a-b50a-456b-9ead-acb32ecfa184

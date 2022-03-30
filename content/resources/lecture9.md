@@ -4,6 +4,7 @@ description: This resource includes the following topics - Potential Flow, and N
   equations.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-20-marine-hydrodynamics-13-021-spring-2005/dc382bb85a7a4f14f71edc7f95393365_lecture9.pdf
 file_type: application/pdf
+parent_uid: 9d206842-775b-9736-52ec-e3f48328722a
 resourcetype: Document
 title: lecture9.pdf
 uid: dc382bb8-5a7a-4f14-f71e-dc7f95393365
